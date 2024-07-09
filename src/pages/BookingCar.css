@@ -1,0 +1,73 @@
+
+.booking-car-container {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.booking-car-img {
+    height: 100%;
+    width: 100%;
+    max-width: 450px;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.booking-car-info {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.6;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.booking-car-info p {
+    margin: 0;
+}
+
+.booking-car-actions {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.booking-car-actions .ant-btn {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.booking-car-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.booking-car-total {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.booked-slots-modal .ant-modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.booked-slots-modal .ant-btn {
+    margin: 10px 0;
+}
+
+.stripe-card-element {
+    border: 1px solid #d9d9d9;
+    padding: 11px;
+    border-radius: 4px;
+    background-color: white;
+}

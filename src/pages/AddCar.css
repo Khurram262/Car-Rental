@@ -1,0 +1,35 @@
+
+.add-car-container {
+    padding: 20px;
+  }
+  
+  .add-car-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-car-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: #1890ff;
+  }
+  
+  .add-car-footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .add-car-footer-content {
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  

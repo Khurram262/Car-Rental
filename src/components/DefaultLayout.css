@@ -1,0 +1,114 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Light gray background */
+  color: #333; /* Dark text */
+}
+
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  background-color: #ffffff; /* White background */
+  color: #1890ff; /* Blue text */
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 80px; /* Adjusted size */
+  height: 80px; /* Adjusted size */
+  margin-right: 10px;
+  margin-left: 30px;
+}
+
+.brand-name {
+  font-size: 24px; /* Reduced font size */
+  font-weight: bold;
+}
+
+.user-menu {
+  display: flex;
+  align-items: center;
+}
+
+.user-button {
+  background-color: #1890ff; /* Blue background */
+  color: #ffffff; /* White text */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.user-button:hover {
+  background-color: #40a9ff; /* Lighter blue on hover */
+}
+
+/* Content */
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  background-color: #ffffff; /* White background */
+  color: #333; /* Dark text */
+  padding: 40px 20px;
+  margin-top: auto; /* Pushes footer to the bottom */
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1 1 300px; /* Flexible width with a minimum of 300px */
+  margin-bottom: 20px;
+}
+
+.footer-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  color: #1890ff; /* Blue icon color */
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #40a9ff; /* Lighter blue on hover */
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #ddd; /* Light gray border */
+  padding-top: 20px;
+  color: #666; /* Gray text */
+}

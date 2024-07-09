@@ -1,0 +1,17 @@
+.login-container {
+    animation: slideBackground 5s forwards; /* Adjust duration as needed */
+}
+
+@keyframes slideBackground {
+    0% {
+        background-position: top left;
+    }
+    80% {
+        background-position: bottom right;
+    }
+    100% {
+        background-position: bottom right; /* Ensure the animation stops at this position */
+    }
+}
+
+

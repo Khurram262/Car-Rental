@@ -1,0 +1,165 @@
+:root {
+  --primary-color: #001529;
+  --accent-color: #001529;
+  --background-color: white;
+  --overlay-color: rgba(0, 0, 0, 0.6);
+  --text-color: #333;
+  --card-background: #e6f7ff;
+}
+
+.home-container {
+  font-family: 'Arial, sans-serif';
+  background-color: white;
+}
+
+.cover-image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70vh;
+  background-color: white;
+  color: white;
+  text-align: left;
+  padding: 0 2rem;
+}
+
+.cover-image-right {
+  height: 100%;
+  width: auto;
+}
+
+.content-container {
+  z-index: 2;
+  padding: 2rem;
+  text-align: left;
+}
+
+.main-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.sub-title {
+  color: var(--accent-color);
+}
+
+.contact-button {
+  margin-top: 1rem;
+  background-color: var(--accent-color);
+  border: none;
+  color: white;
+}
+
+.why-choose-us {
+  padding: 4rem 1rem;
+  background-color: var(--background-color);
+  text-align: center;
+}
+
+.section-title {
+  margin-bottom: 2rem;
+  color: var(--primary-color);
+}
+
+.feature-card {
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  background: var(--card-background);
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+
+.feature-title {
+  color: var(--primary-color);
+}
+
+.customer-reviews {
+  padding: 4rem 1rem;
+  background-color: var(--background-color);
+  text-align: center;
+}
+
+.review-card {
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  background: var(--card-background);
+}
+
+.review-card:hover {
+  transform: translateY(-10px);
+}
+
+.popular-brands {
+  padding: 4rem 1rem;
+  background-color: var(--background-color);
+  text-align: center;
+}
+
+.brands-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.brand-logo {
+  height: 80px;
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+.brand-logo:hover {
+  transform: translateY(-5px);
+}
+
+.location-map {
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.map-iframe {
+  border: 0;
+  border-radius: 8px;
+}
+
+.recommendation-card {
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  background: var(--card-background);
+}
+
+.recommendation-card:hover {
+  transform: translateY(-10px);
+}
+
+.car-title {
+  color: var(--primary-color);
+}
+
+.car-image {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.search-container {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.search-results {
+  margin-top: 20px;
+}
+
+.search-results .ant-card {
+  margin-bottom: 16px;
+}
+
+.search-results .ant-card .car-image {
+  height: 200px; /* Adjust as needed */
+  object-fit: cover;
+}

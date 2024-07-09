@@ -1,0 +1,148 @@
+/* AdminHome.css */
+
+.admin-home {
+  padding: 20px;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.admin-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.admin-actions .ant-btn {
+  height: auto;
+}
+
+.admin-actions .ant-btn-icon-only {
+  padding: 8px;
+}
+
+.admin-content {
+  background-color: #f0f2f5;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.admin-analytics-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-analytics-icon {
+  font-size: 24px;
+  margin-bottom: 8px;
+  color: #1890ff;
+}
+
+.admin-car-list {
+  margin-top: 20px;
+}
+
+.admin-car-card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.admin-car-image {
+  height: 200px;
+  object-fit: cover;
+}
+
+.admin-delete-icon, .admin-edit-icon {
+  font-size: 18px;
+}
+
+.admin-delete-icon {
+  color: red;
+}
+
+.admin-edit-icon {
+  color: #1890ff;
+}
+
+.admin-car-meta {
+  text-align: center;
+}
+
+.admin-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.admin-footer-content {
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-link {
+  margin-left: 12px;
+  text-decoration: none;
+  color: #1890ff;
+}
+
+.admin-link:hover {
+  text-decoration: underline;
+}
+
+
+
+.admin-car-card .ant-card-body {
+  padding-bottom: 16px; 
+}
+
+.admin-car-card .admin-car-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admin-car-card .admin-car-meta .admin-car-price {
+  margin-bottom: 20px;
+}
+
+.admin-car-card .admin-car-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 16px;
+}
+
+.admin-car-card .admin-car-buttons .admin-action-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 6px;
+  font-size: 14px;
+  width: 57%;
+}
+
+.admin-car-card .remove-booking  {
+  color: #1890ff; 
+}
+
+.admin-car-card .remove-timeslots {
+  color: #1890ff; 
+}

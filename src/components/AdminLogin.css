@@ -1,0 +1,33 @@
+/* src/components/AdminLogin.css */
+
+.admin-login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f2f5; /* Light background color */
+}
+
+.admin-login-card {
+    width: 300px; /* Card width */
+    padding: 20px; /* Padding inside the card */
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.admin-login-title {
+    text-align: center; /* Center align title */
+    font-size: 1.5rem; /* Title font size */
+    margin-bottom: 20px; /* Space below title */
+}
+
+.admin-login-form {
+    margin-bottom: 20px; /* Space below form */
+}
+
+.admin-login-footer {
+    text-align: center; /* Center align footer */
+    font-size: 0.9rem; /* Footer font size */
+    color: #666666; /* Light gray text color */
+}
