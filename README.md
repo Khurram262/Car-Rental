@@ -20,16 +20,4 @@ Stripe: Payment processing API for handling transactions securely
 git clone https://github.com/your-username/your-repository.git
 cd your-repository
 
-# Install server dependencies
-cd server
-npm install
-
-# Install client dependencies
-cd ../client
-npm install
-
-Configure environment variables:
-
-Create a .env file in the server directory and add necessary variables like MongoDB connection string, Stripe API keys, etc.
-
 
